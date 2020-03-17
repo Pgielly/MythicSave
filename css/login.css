@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+main {
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 3px dashed #2472aa;
+    padding: 20px;
+    align-items: center;
+    border-radius: 130%;
+}
+
+#submit-log, #submit-register {
+    background-color: #E60006;
+    border: 2px solid blue;
+    color:#f1e902;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    height: 26px;
+}
+
+#submit:hover {
+    background-color: #f1e902;
+    border: 2px solid #E60006;
+    color:blue;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+    height: 26px;
+}
+
+.fun {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hear {
+    height: 150px;
+    width: 150px;
+    border: 3px dashed #2472aa;
+    border-radius: 100%;
+    padding: 40px;
+    bottom: -36px;
+    position: relative;
+}
+
+.switch-form:hover {
+    cursor: pointer;
+}
+
+.switch-form {
+    font-style: italic;
+}

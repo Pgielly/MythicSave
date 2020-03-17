@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex-direction: column;
+    align-items: center;
+}
+
+main>div {
+    width: 60%;
+}
+
+main > div:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.character-name {
+    width: 20%;
+    font-style: italic;
+}
+
+.description {
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.gray {
+    background-color: #f2f2f2;
+}
